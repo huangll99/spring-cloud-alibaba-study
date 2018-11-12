@@ -1,7 +1,7 @@
 spring-cloud-alibaba是spring-cloud规范的另一种实现，提供了注册服务与配置服务二合一的Nacos，提供熔断降级与系统保护的Sentinel.
 
 ## 系统整体架构：
-
+![avatar](https://github.com/huangll99/spring-cloud-alibaba-study/blob/master/pic/image.png)
 
 ## Nacos部署
   - 下载安装包：https://github.com/alibaba/nacos/releases
