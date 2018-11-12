@@ -1,9 +1,9 @@
 spring-cloud-alibaba是spring-cloud规范的另一种实现，提供了注册服务与配置服务二合一的Nacos，提供熔断降级与系统保护的Sentinel.
 
-##系统整体架构：
+## 系统整体架构：
 
 
-##Nacos部署
+## Nacos部署
   - 下载安装包：https://github.com/alibaba/nacos/releases
 ```bash
 unzip nacos-server-0.4.0.zip
@@ -13,11 +13,11 @@ cd nacos/bin
 sh startup.sh -m standalone
   -  访问：
 http://10.3.10.131:8848/nacos
-Sentinel Dashboard部署
+## Sentinel Dashboard部署
   -  下载dashboard源码，编译得到fat jar(https://github.com/alibaba/Sentinel/tree/master/sentinel-dashboard)
   -  运行：java -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard.jar
 
-Spring-Cloud-Gateway搭建配置与部署
+## Spring-Cloud-Gateway搭建配置与部署
 依赖包：
 ```xml
 <dependencyManagement>
@@ -39,7 +39,7 @@ Spring-Cloud-Gateway搭建配置与部署
 </dependencies>
 ```
 
-服务与调用服务示例工程
+## 服务与调用服务示例工程
   -  服务注册
 
 添加依赖：
