@@ -14,5 +14,4 @@ public class Order {
   private Integer count;
 
   private Double totalMoney;
-
 }
